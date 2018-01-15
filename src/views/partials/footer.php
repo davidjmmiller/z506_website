@@ -9,7 +9,7 @@
                 <li><a href="/about/history">History</a></li>
                 <li><a href="/about/who-we-are">Who we are</a></li>
                 <li><a href="/about/portfolio">Portfolio</a></li>
-                <li><a href="/about/portfolio">Our Clients</a></li>
+                <li><a href="/about/clients">Our Clients</a></li>
             </ul>
             <h2>Hosting</h2>
             <ul>
