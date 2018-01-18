@@ -4,6 +4,10 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+function valid_email($email) {
+    return !!filter_var($email, FILTER_VALIDATE_EMAIL);
+}
+
 function new_email($from_email, $from_name, $to = array(), $subject, $body, $alt_body, $cc = array(), $bcc = array(), $reply_to_email = "", $reply_to_name = "")
 {
     // Loading external libraries

@@ -41,6 +41,11 @@ $current_path = '';
 if ($load_template)
 {
     // Loading layout
+    ob_start();
+    require $block_content;
+    $block_content = ob_get_contents();
+    ob_end_clean();
+
     require PATH_CONTROLLER . 'templates/'.(isset($template_name) ? $template_name.'.php' : 'default.php');
 }
 else
