@@ -61,6 +61,9 @@ switch ($_GET['q'])
     case 'contact/social':
         $block_content =  PATH_CONTROLLER.'contact/social.php';
         break;
+    case 'contact/result':
+        $block_content =  PATH_CONTROLLER.'contact/contact_result.php';
+        break;
     case '':
         $block_content =  PATH_CONTROLLER.'default.php';
         //$load_template = false;

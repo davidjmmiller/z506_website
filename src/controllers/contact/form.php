@@ -46,10 +46,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     if (count($errors) == 0) {
         // Storing information into the database
+        $sql = 'INSERT INTO contact_form (creation_date,firstname,lastname,email,comment,status) values (?,?,?,?,?,?)';
+        $result = db_query($sql,array(date('YmdHis'),$firstname,$lastname,$email,$comment,'1'));
 
         // Result page
-        set_session_message('Thanks for contact us, we will be in touch as soon as possible');
-        header('Location: /');
+        header('Location: /contact/result');
     }
     else {
         echo '<pre>';
