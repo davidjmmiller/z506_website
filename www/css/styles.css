@@ -1,6 +1,10 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
+.container-fluid.wrapper {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 50px;
+}
 .navbar {
     margin-bottom: 0;
 }
@@ -22,6 +26,10 @@
 
 .home-info h2, .home-info p {
     text-align: center;
+}
+
+.carousel-caption h1 {
+    background: rgba(0,0,0,.5);
 }
 
 footer {

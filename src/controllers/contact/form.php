@@ -52,13 +52,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         // Result page
         header('Location: /contact/result');
     }
-    else {
-        echo '<pre>';
-        print_r($errors);
-        print_r($_SESSION['captcha']);
-        echo '</pre>';
-
-    }
 
 }
 

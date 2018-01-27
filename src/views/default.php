@@ -9,21 +9,21 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="http://via.placeholder.com/1920x1200" alt="">
+            <img src="/img/carousel-slides-1.jpg" alt="">
             <div class="carousel-caption">
-
+                <h1>Connect with the World</h1>
             </div>
         </div>
         <div class="item">
-            <img src="http://via.placeholder.com/1920x1200" alt="">
+            <img src="/img/carousel-slides-2.jpg" alt="">
             <div class="carousel-caption">
-
+                <h1>Secure Hosting and Scalable</h1>
             </div>
         </div>
         <div class="item">
-            <img src="http://via.placeholder.com/1920x1200" alt="">
+            <img src="/img/carousel-slides-3.jpg" alt="">
             <div class="carousel-caption">
-
+                <h1>Get Success on your Business</h1>
             </div>
         </div>
     </div>

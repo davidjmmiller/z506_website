@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container-fluid wrapper">
         <?php require $block_header;?>
         <?php if (session_message(true)):?>
             <div class="bg-primary">
