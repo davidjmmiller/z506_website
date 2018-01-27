@@ -1,5 +1,19 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+
+.h2, h2 {
+    font-size: 30px;
+    background: url(/img/background.jpg) center center;
+    background-size: cover;
+    color: white;
+    margin-top: 0;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .container-fluid.wrapper {
     padding-right: 0;
     padding-left: 0;
@@ -8,7 +22,9 @@
 .navbar {
     margin-bottom: 0;
 }
-
+.navbar-brand{
+    font-size: 26px;
+}
 .navbar-inverse {
     border-radius: 0;
 }
@@ -30,12 +46,13 @@
 
 .carousel-caption h1 {
     background: rgba(0,0,0,.5);
+    font-size: 18px;
 }
 
 footer {
     background: #000;
     padding: 30px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 footer h1 {
@@ -48,6 +65,11 @@ footer ul {
 
 footer h2 {
     font-size: 18px;
+    background: none;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: left;
 }
 
 footer h2, footer h1 {
@@ -60,6 +82,12 @@ footer h2, footer h1 {
 
 .footer small{
     text-align: center;
+}
+
+.home-info h2 {
+    background: none;
+    color: #333;
+    padding: 15px 0 5px 0;
 }
 
 
